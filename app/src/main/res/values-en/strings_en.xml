@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Fool around</string>
+
+    <!--公共-->
+    <string name="public_confirm">Confirm</string>
+    <string name="public_cancel">Cancel</string>
+    <string name="public_done">Done</string>
+
+
+    <!--天气预报-->
+    <string name="future_temperature">Temperature</string>
+    <string name="future_weather">Weather</string>
+    <string name="future_air_quality">Air quality</string>
+    <string name="future_wind_power">Wind power</string>
+    <string name="future_wind_direction">Wind direction</string>
+    <string name="future_humidity">Humidity</string>
+
+
+    <!--首页-新闻类型-->
+    <string name="nav_toutiao">Headlines</string>
+    <string name="nav_shehui">Sociology</string>
+    <string name="nav_guonei">Domestic</string>
+    <string name="nav_guoji">International</string>
+    <string name="nav_yule">Entertainment</string>
+    <string name="nav_tiyu">Sports</string>
+    <string name="nav_junshi">Military</string>
+    <string name="nav_keji">Science and technology</string>
+    <string name="nav_caijing">Finance</string>
+    <string name="nav_shishang">fashion</string>
+
+
+    <!--底部导航标签-->
+    <string name="nav_frist">First</string>
+    <string name="nav_hot">Hot</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_mine">Mine</string>
+
+    <!--我的-->
+    <string name="mine_language">Multilingual</string>
+
+</resources>

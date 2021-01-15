@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.DiscoverFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+            <ImageView
+                android:id="@+id/iv_music_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/tv_music_activity"
+                android:textSize="25sp"
+                android:src="@mipmap/rocket"
+                android:padding="10dp" />
+            <TextView
+                android:id="@+id/tv_music_activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:text="音乐火箭"/>
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rl_weather_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_bg"
+        android:layout_margin="10dp"
+        android:padding="20dp">
+        <ImageView
+            android:id="@+id/wid_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/wid_00"/>
+        <TextView
+            android:id="@+id/tv_temperature"
+            android:layout_toRightOf="@+id/wid_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="---"
+            android:textColor="@color/white"
+            android:textSize="36sp"/>
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_toRightOf="@+id/wid_img"
+            android:layout_below="@+id/tv_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="---"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_toRightOf="@+id/wid_img"
+            android:layout_below="@+id/tv_info"
+            android:drawableRight="@mipmap/ic_map_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="---  "
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/right_white"/>
+    </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

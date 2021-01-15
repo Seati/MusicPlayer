@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">瞎搞</string>
+
+    <!--公共-->
+    <string name="public_confirm">确认</string>
+    <string name="public_cancel">取消</string>
+    <string name="public_done">完成</string>
+
+    <!--天气预报-->
+    <string name="future_temperature">温度</string>
+    <string name="future_weather">天气</string>
+    <string name="future_air_quality">天气质量指数</string>
+    <string name="future_wind_power">风力</string>
+    <string name="future_wind_direction">风向</string>
+    <string name="future_humidity">湿度</string>
+
+    <!--首页-新闻类型-->
+    <string name="nav_toutiao">头条</string>
+    <string name="nav_shehui">社会</string>
+    <string name="nav_guonei">国内</string>
+    <string name="nav_guoji">国际</string>
+    <string name="nav_yule">娱乐</string>
+    <string name="nav_tiyu">体育</string>
+    <string name="nav_junshi">军事</string>
+    <string name="nav_keji">科技</string>
+    <string name="nav_caijing">财经</string>
+    <string name="nav_shishang">时尚</string>
+
+
+    <!--底部导航标签-->
+    <string name="nav_frist">首页</string>
+    <string name="nav_hot">热搜</string>
+    <string name="nav_discover">发现</string>
+    <string name="nav_mine">我的</string>
+
+    <!--我的-->
+    <string name="mine_language">多语言</string>
+
+</resources>
